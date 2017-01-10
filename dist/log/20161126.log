@@ -1,0 +1,11 @@
+> Mon Dec 26 00:33:37 CST 2016 Conectado
+> Mon Dec 26 00:38:21 CST 2016 Desconectado
+> Mon Dec 26 00:38:22 CST 2016 Conectado
+> Mon Dec 26 00:38:47 CST 2016 Desconectado
+> Mon Dec 26 00:38:55 CST 2016 Comando invalido!
+> Mon Dec 26 00:38:59 CST 2016 Lista de comandos:
+ /ayuda
+ /cerrar
+> Mon Dec 26 00:39:08 CST 2016 Comando invalido!
+> Mon Dec 26 00:39:09 CST 2016 Comando invalido!
+> Mon Dec 26 00:40:04 CST 2016 Se agregó= Clima{id=0, idSensor=0, fecha=null, humedad=0.0, presion=0.0, temperatura=0.0, luminosidad=0.0}
