@@ -64,7 +64,12 @@ public class DataBase {
     }
     
     public void insertaRegistro(Clima c){
-        
+        try{
+            Statement st = conn.createStatement();
+            st.executeUpdate("");
+        }catch (Exception e){
+            System.out.println("error" + e);
+        }
     }
     
 }
