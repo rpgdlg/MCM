@@ -82,5 +82,4 @@ public class Clima implements Serializable{
         return "Clima{" + "id=" + id + ", idSensor=" + idSensor + ", fecha=" + fecha + ", humedad=" + humedad + ", presion=" + presion + ", temperatura=" + temperatura + ", luminosidad=" + luminosidad + '}';
     }
     
-    
 }
