@@ -28,9 +28,14 @@ public class Archivos {
     
     public Archivos(){
         hoy = Calendar.getInstance();
-        nombreArchivo = String.valueOf(hoy.get(Calendar.YEAR)) 
-                + String.valueOf(hoy.get(Calendar.MONTH))
-                + String.valueOf(hoy.get(Calendar.DAY_OF_MONTH));
+        String dia, mes, año;
+        año = String.valueOf(hoy.get(Calendar.YEAR));
+        mes = String.valueOf(hoy.get(Calendar.MONTH));
+        dia = String.valueOf(hoy.get(Calendar.DAY_OF_MONTH));
+        mes = String.valueOf(Integer.valueOf(mes)+1);
+        if(Integer.valueOf(mes) < 10)
+            mes = '0' + mes; 
+        
         FOLDER = getProgramPath() + "\\log\\";
         File folder = new File(FOLDER);
         folder.mkdir();
